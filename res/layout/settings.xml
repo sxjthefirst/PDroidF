@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:id="@+id/settings1">
+		<TableRow>
+			<TextView android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" android:text="Destination Folder"
+				android:textSize="18sp"></TextView>
+			<EditText   android:layout_column="1"  android:id="@+id/destFolderName"
+            android:minWidth="60sp" android:padding="3dip" />				
+		</TableRow>
+		<TableRow>
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="Destination File"
+				android:textSize="18sp" />
+			<EditText android:layout_column="1" android:layout_width="fill_parent" android:id="@+id/destFileName"
+            android:minWidth="60sp" android:padding="3dip" android:layout_gravity="center" />
+		</TableRow>
+		<TableRow>
+			<Button  android:layout_width="fill_parent" android:id="@+id/buttonConfirm"
+				android:layout_height="wrap_content" android:text="Confirm" /> 
+		</TableRow>
+	</TableLayout>
+
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:id="@+id/layout">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/startLabel"
+		android:textSize="24sp" />
+	<!--  FrameLayout android:id="@+id/preview"
+		android:layout_weight="1" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+	</FrameLayout -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<!-- TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Save as"
+			android:textSize="18sp" / -->
+		<!--  EditText android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/fileName"
+			android:text="pdfout.pdf" android:layout_gravity="center" / -->
+		<Button android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/buttonClick"
+			 android:text="@string/buttonLabel" android:layout_gravity="center"></Button>
+		<!--  Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/buttonNewPage"
+			android:text="New Pg" android:layout_gravity="center" / -->
+		<!--  Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/buttonClose"
+			android:text="Finish" android:layout_gravity="center" -->
+	</LinearLayout>
+</LinearLayout>

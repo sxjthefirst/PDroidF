@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="File Settings">
+		<EditTextPreference android:dialogTitle="Folder Name"
+			android:dialogMessage="Folder name" android:key="keyFolderName"
+			android:title="Folder Name" android:summary="Folder to save in" />
+		<EditTextPreference android:dialogTitle="File Name"
+			android:dialogMessage="File name" android:key="keyFileName"
+			android:title="File Name" android:summary="Default file name" />
+		<CheckBoxPreference android:key="keyOverwrite"
+			android:defaultValue="false" android:title="Don't prompt if file exists" />
+	</PreferenceCategory>
+</PreferenceScreen>
